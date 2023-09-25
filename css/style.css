@@ -5,7 +5,7 @@
     background:linear-gradient(180deg,var(--white) 0,var(--gray-100) 10rem);
     line-height:1.15;
     visibility:visible;
-    margin: 0;
+    margin: 0 auto;
   }  
 
 *,:before,:after {  
@@ -260,6 +260,11 @@ img {
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   color: #fff;
   padding: 10px;
+}
+
+.commission-text-intro {
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .commissions-card-container {

@@ -82,8 +82,11 @@ img {
   border-radius: 0 0 var(--borderRadius)
 } 
 
-.main-container {
-background-color: var(--purple);
+.main-container { 
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  min-height: 100vh;
 }
 
 .profilMenu {
@@ -273,7 +276,7 @@ background-color: var(--purple);
 }
 
 .commission-card-description {
-  width: 100%;
+  width: 200px;
   align-self: self-start;
   padding: 10px;
   background-color: var(--purple);
@@ -283,6 +286,10 @@ background-color: var(--purple);
               0 4px 4px rgba(0,0,0,0.15), 
               0 8px 8px rgba(0,0,0,0.10),
               0 16px 16px rgba(0,0,0,0.05);
+}
+
+.commission-card-description p {
+  font-size: large;
 }
 
 .commission-card-description:hover {
@@ -339,6 +346,81 @@ background-color: var(--purple);
   color: var(--pink);
 }
 
+.contact-form-container {
+  display: flex;
+  flex-flow: column;
+  background-color: aqua;
+  height: 100%;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-form-text ul {
+  text-align: left;
+}
+
+.contact-form {
+  width: 360px;
+  justify-content: space-between;
+  min-height: 50vh;
+  color: var(--black);
+}
+
+form {
+  margin: 0 auto;
+  width: 350px;
+  padding: 1em;
+  border: 1px solid var(--black);
+  border-radius: 1em;
+}
+
+label {
+  /* Taille et alignement uniformes */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input, textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 2px solid var(--pink);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: var(--gray-100);
+}
+
+input:focus,
+textarea:focus {
+  border-color: var(--pink);
+}
+
+.button {
+  background-color: #ff0d4d;
+}
+
+#terms-of-sale {
+  padding: 20px;
+}
+
+#terms-of-sale ul {
+  line-height: 3;
+  text-align: left;
+}
+
+footer {
+  display: flex;
+  flex-flow: column;
+  margin: 0 0 10px 0;
+}
+
+footer a {
+  color: var(--black);
+}
+
 @media (min-width: 480px){ 
   img  { 
     max-height: 467px;
@@ -363,6 +445,10 @@ background-color: var(--purple);
     justify-content: flex-start;
     align-content: space-between;
     align-items: center;
+  }
+
+  .commission-card-description {
+    width: 100%;
   }
 
   .card {

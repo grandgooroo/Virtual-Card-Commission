@@ -361,18 +361,20 @@ img {
 }
 
 .contact-form {
-  width: 360px;
   justify-content: space-between;
   min-height: 50vh;
   color: var(--black);
 }
 
 form {
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
-  width: 350px;
-  padding: 1em;
-  border: 1px solid var(--black);
-  border-radius: 1em;
+  width: 90%;
+  max-width: 60%;
+  padding: 2vw 4vw;
+  border-radius: 5px;
+  background-color: var(--white);
 }
 
 label {
@@ -384,12 +386,12 @@ label {
 
 input, textarea {
   font: 1em sans-serif;
-  width: 300px;
   box-sizing: border-box;
-  border: 2px solid var(--pink);
+  border: 0;
   border-radius: 5px;
   margin-bottom: 10px;
-  padding: 5px;
+  padding: 20px;
+  outline: none;
   background-color: var(--gray-100);
 }
 
@@ -398,8 +400,15 @@ textarea:focus {
   border-color: var(--pink);
 }
 
-.button {
+form button {
   background-color: #ff0d4d;
+  border: 0;
+  border-radius: 5px;
+  padding: 15px;
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
 }
 
 #terms-of-sale {

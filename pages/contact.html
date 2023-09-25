@@ -39,15 +39,19 @@
                 <li>What vibe do you want for the art?</li>
             </ul>
     </article>
-    <div class="contact-form">
-        <form action="1ed825e75c8c7438c896782597fd8313" method="POST">
-            <input type="text" name="name" placeholder="name">
-            <input type="email" name="email" placeholder="email" required>
-            <input type="text" name="commission" placeholder="commission" required>
-            <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
-            <!-- <input type="hidden" name="_captcha" value="false"> -->
-            <button type="submit">Send</button>
-        </form> 
-    </div>  
+
+    <form
+	action="https://formie.io/form/3ba7403f-8d11-4b1a-a38e-b54ad5e0c2df"
+	method="POST"
+>
+    <!-- Optional: Redirect to your success page -->
+    <input name="_redirect" type="hidden" value="https://yoursite/success">
+
+	<input name='name' type='text' placeholder="name" required>
+	<input name='email' type='email' placeholder="email" required>
+	<textarea name='your-request' rows="4" placeholder="commission details"></textarea>
+
+    <button>Submit</button>
+</form>
 </body>
 </html>

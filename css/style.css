@@ -279,13 +279,14 @@ img {
   width: 200px;
   align-self: self-start;
   padding: 10px;
+  cursor: pointer; 
   background-color: var(--purple);
   border-radius: 12px;
   box-shadow: 0 1px 1px rgba(0,0,0,0.25), 
               0 2px 2px rgba(0,0,0,0.20), 
               0 4px 4px rgba(0,0,0,0.15), 
               0 8px 8px rgba(0,0,0,0.10),
-              0 16px 16px rgba(0,0,0,0.05);
+              0 16px 16px rgba(0,0,0,0.05);            
 }
 
 .commission-card-description p {
@@ -341,7 +342,7 @@ img {
   padding: 10px;
 }
 
-.mail {
+.contact-form-link {
   font-weight: bold;
   color: var(--pink);
 }
@@ -349,9 +350,10 @@ img {
 .contact-form-container {
   display: flex;
   flex-flow: column;
-  background-color: aqua;
-  height: 100%;
-  width: 500px;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  min-width: 300px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -375,6 +377,7 @@ form {
   padding: 2vw 4vw;
   border-radius: 5px;
   background-color: var(--white);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 label {
@@ -409,6 +412,11 @@ form button {
   font-size: 18px;
   font-weight: 400;
   cursor: pointer;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+form button:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 #terms-of-sale {

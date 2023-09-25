@@ -458,18 +458,17 @@ footer a {
 
   .commissions-card-container {
     max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 0 0 0;
     gap: 20px;
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-start;
+    justify-content: center;
     align-content: space-between;
     align-items: center;
   }
 
   .commission-card-description {
-    width: 100%;
+    max-width: 800px;
   }
 
   .card {

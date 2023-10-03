@@ -104,7 +104,7 @@ img {
   font-family: 'Noto Color Emoji', sans-serif;
   color: var(--gray-100);
   font-size: 15px;
-  margin: 0;
+  margin: 15px 0 0 0;
   padding: 10px 0 0 0;
 }
 
@@ -114,6 +114,7 @@ img {
 
 .profilMenu li {
   display: inline;
+  padding: 0 15px 0 0;
 }
 
 .mini-link-container {
@@ -121,7 +122,6 @@ img {
   justify-content: center;
   width: 100%;
   margin: 5px auto 5px auto;
-  border-radius: var(--borderRadius);
 }
 
 .mini-link-container a {
@@ -129,7 +129,7 @@ img {
   width: 25px;
   background-color: var(--purple);
   padding: 5px;
-  margin: 0 5px 0 0;
+  margin: 0 10px 0 0;
   border-radius: 5px;
 }
 
@@ -200,8 +200,8 @@ img {
 .shake_tile {
   margin: 2px;
   width: 36px;
-  animation: shake 1.2s infinite linear;
-  transform-origin: 10% 40%;
+  /* animation: shake 1.2s infinite linear;
+  transform-origin: 10% 40%; */
 }
 
 @keyframes shake {
@@ -423,6 +423,10 @@ form button:hover {
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
+.terms-of-sale-link {
+  color: var(--black);
+}
+
 #terms-of-sale {
   padding: 20px;
 }
@@ -435,7 +439,7 @@ form button:hover {
 footer {
   display: flex;
   flex-flow: column;
-  margin: 0 0 10px 0;
+  margin: 0 0 15px 0;
 }
 
 footer a {

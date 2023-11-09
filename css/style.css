@@ -31,9 +31,9 @@ html {
 
 :root { 
     --white: #fff; 
-    --black: #151515;
+    --black: #242324;
     --gray-100: #f6f7f9; 
-    --gray-900: #192631; 
+    --gray-900: #2b2e31; 
     --purple: #7135f2;
     --pink: #ff0d4d;
     --vh: 100vh; 
@@ -94,7 +94,8 @@ img {
   flex-flow: column;
   align-items: center;
   justify-content: center;
-  background-color: var(--black);
+  background: rgb(80,76,91);
+  background: linear-gradient(0deg, rgb(44, 44, 44) 0%, rgba(36,35,36,1) 100%);
   margin: 0;
 }
 
@@ -269,7 +270,7 @@ img {
 #commissions {
   display: flex;
   flex-flow: column;
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  background: radial-gradient(ellipse at bottom, #424042 0%, #242324 100%);
   color: #fff;
   padding: 10px;
 }

@@ -18,7 +18,6 @@ html {
     visibility: visible; 
     opacity: 1; 
     font-size:10vw;
-    font-family: Poppins,sans-serif; 
     line-height: 1.5;
     text-align: center;
 } 
@@ -38,7 +37,6 @@ html {
     --pink: #ff0d4d;
     --vh: 100vh; 
     --headerHeight: 5rem; 
-    --font: "Poppins, sans-serif"; 
     --fontSize: 1rem; 
     --buttonColor: var(--white); 
     --headlineColor: var(--gray-900); 
@@ -60,6 +58,7 @@ html {
 h1 {
   font-size: 20px;
   margin-bottom: 30px;
+  font-family: Poppins; 
 }
 
 p {
@@ -69,6 +68,10 @@ p {
 a {
   text-decoration: none;
   color: rgb(240,240,240);
+}
+
+#purpletxt{
+  color: var(--purple);
 }
 
 #marker {

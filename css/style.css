@@ -71,6 +71,12 @@ a {
   color: rgb(240,240,240);
 }
 
+#marker {
+  background-color:#ff0d4d;
+  border-radius: 16px;
+  padding: 0 5px 0 5px;
+}
+
 img { 
   border-style: solid;
   vertical-align: middle;

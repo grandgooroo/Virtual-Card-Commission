@@ -94,9 +94,8 @@ img {
   flex-flow: column;
   align-items: center;
   justify-content: center;
-  background: url(../assets/ui/bannière_Youtube_Illustration.png)center, rgb(88, 81, 109);
   background-size: cover;
-  /* background: radial-gradient(ellipse at bottom, #424042 0%, #242324 100%); */
+  background: radial-gradient(ellipse at bottom, #424042 0%, #242324 100%); */
   /* background: linear-gradient(0deg, rgb(44, 44, 44) 0%, rgba(36,35,36,1) 100%); */
   margin: 0;
 }
@@ -113,7 +112,7 @@ img {
 
 .profil-id-picture {
   display: flex;
-  margin-top: 20px;
+  margin: 10px 0 5px 0;
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -130,6 +129,13 @@ img {
 .profilMenu li {
   display: inline;
   padding: 0 15px 0 0;
+}
+
+.nav-container{
+  display: flex;
+  flex-flow: column nowrap;
+  /* background: radial-gradient(ellipse at bottom, #424042 0%, #242324 100%); */
+  width: 100%;
 }
 
 .mini-link-container {
